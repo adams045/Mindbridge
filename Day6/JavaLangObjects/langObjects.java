@@ -1,15 +1,19 @@
 public class langObjects{
     public static void main(String[] args) {
 
-        langObjects obj = new langObjects();
-        String s="hiii";
+        name obj = new name("Adams");
         System.out.println(obj.getClass());
-        System.out.println(s.toString());
+        System.out.println(obj.toString());
     }
-
+}
+class name{
+    private String value;
+    
+    public name(String value){
+        this.value=value;
+    }
     @Override
-    public String toString() {
-        
-        return super.toString();
+    public String toString() {   
+        return value;
     }
 }
