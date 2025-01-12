@@ -8,15 +8,15 @@ public class JDBC_Example {
             Connection connection= DriverManager.getConnection("jdbc:mysql://localhost/Student","root","0000");
             Statement stm1=connection.createStatement();
 //          Insert the value to the table
-            String query="INSERT INTO Student_Details(id,name,mark) VALUES (101,\"gogul\",97)";
+            String query="INSERT INTO Student_Details(id,name,mark) VALUES (101,\"adams\",91)";
             int rs=stm1.executeUpdate(query);
             System.out.println("Affected rows : "+rs);
 
-            query="INSERT INTO Student_Details(id,name,mark) VALUES (102,\"asif\",99)";
+            query="INSERT INTO Student_Details(id,name,mark) VALUES (102,\"shan\",87)";
             rs=stm1.executeUpdate(query);
             System.out.println("Affected rows : "+rs);
 
-            query="INSERT INTO Student_Details(id,name,mark) VALUES (103,\"shyam\",90)";
+            query="INSERT INTO Student_Details(id,name,mark) VALUES (103,\"ram\",88)";
             rs=stm1.executeUpdate(query);
             System.out.println("Affected rows : "+rs);
 
