@@ -20,7 +20,7 @@ class PalindromeTest {
 
     @Test
     public void NonPalindrome() {
-        assertFalse(Palindrome.isPalindrome("gogul"));
+        assertFalse(Palindrome.isPalindrome("adams"));
     }
 
     @Test
@@ -49,11 +49,11 @@ class PalindromeTest {
 
     @Test
     public void SpecialCharacter(){
-        assertFalse(Palindrome.isPalindrome("g@gul"));
-        assertFalse(Palindrome.isPalindrome("g@gul!"));
-        assertFalse(Palindrome.isPalindrome("!g@gul$"));
-        assertTrue(Palindrome.isPalindrome("a@@a"));
-        assertTrue(Palindrome.isPalindrome("b@@b"));
+        assertFalse(Palindrome.isPalindrome("adams"));
+        assertFalse(Palindrome.isPalindrome("adams!"));
+        assertFalse(Palindrome.isPalindrome("!adams$"));
+        assertTrue(Palindrome.isPalindrome("abba"));
+        assertTrue(Palindrome.isPalindrome("baab"));
     }
 
     @Test
