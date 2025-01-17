@@ -28,12 +28,12 @@ public class Palindrome {
     }
     public static void main(String[] args) {
         System.out.println(isPalindrome(121));
-        System.out.println(isPalindrome("madam"));
-        System.out.println(isPalindrome("gogul"));
-        System.out.println(isPalindrome("Madam"));
-        System.out.println(isPalindrome(""));
+        System.out.println(isPalindrome("Adam"));
+        System.out.println(isPalindrome("mam"));
+        System.out.println(isPalindrome("Level"));
+        System.out.println(isPalindrome("Noon"));
         System.out.println(isPalindrome("z"));
         System.out.println(isPalindrome(null));
-        System.out.println(isPalindrome("g@gul"));
+        System.out.println(isPalindrome("Adams"));
     }
 }
