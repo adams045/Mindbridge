@@ -13,8 +13,8 @@ class StringReverseTest {
 
     @Test
     public void normalString(){
-        assertEquals("lugog",StringReverse.reverse("gogul"));
-        assertEquals("lugoG",StringReverse.reverse("Gogul"));
+        assertEquals("smada",StringReverse.reverse("adams"));
+        assertEquals("smadA",StringReverse.reverse("Adams"));
     }
 
     @Test
@@ -24,9 +24,9 @@ class StringReverseTest {
 
     @Test
     public void SpecialCharacter(){
-        assertEquals("lug@g",StringReverse.reverse("g@gul"));
-        assertEquals("!lug@g",StringReverse.reverse("g@gul!"));
-        assertEquals("$lug@g!",StringReverse.reverse("!g@gul$"));
+        assertEquals("smada",StringReverse.reverse("adams"));
+        assertEquals("!smada",StringReverse.reverse("adams!"));
+        assertEquals("$smada!",StringReverse.reverse("!adams$"));
     }
 
     @Test
