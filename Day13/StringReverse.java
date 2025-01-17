@@ -11,10 +11,9 @@ public class StringReverse {
     }
     public static void main(String[] args){
         try{
-            System.out.println(reverse("gogul"));
-            System.out.println(reverse("Gogul"));
+            System.out.println(reverse("adams"));
+            System.out.println(reverse("shan"));
             System.out.println(reverse(""));
-            System.out.println(reverse("g"));
             System.out.println(reverse(null));
         } catch (Exception e) {
             e.printStackTrace();
