@@ -13,6 +13,6 @@ public class UnaryExample {
     }
     public static void main(String[] args) {
 
-        UnaryExample unaryExample = new UnaryExample("vishnu");
+        UnaryExample unaryExample = new UnaryExample("adams");
     }
 }
