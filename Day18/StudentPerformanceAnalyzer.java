@@ -89,7 +89,7 @@ public class StudentPerformanceAnalyzer {
                 Collectors.counting()
             ));
 
-        System.out.println("\nFailing Students Per Department:");
+        System.out.println("\nFailing Students");
         failingStudentsPerDepartment.forEach((department, count) -> 
             System.out.println(department + ": " + count)
         );
