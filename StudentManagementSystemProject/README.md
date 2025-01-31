@@ -52,6 +52,5 @@ The `StudentManagementSystem` class is the entry point for the application. It p
   - Search for a student by ID.
   - Update student details.
   - Delete a student.
-- Uses the `StudentService` class to perform operations.
+- Uses the `StudentOperations` class to perform operations.
 
-## Below is the Demo code Video:
