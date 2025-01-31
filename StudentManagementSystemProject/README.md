@@ -9,7 +9,7 @@ This is a simple **Student Management System** built using **Java**. It allows y
 - Multithreaded saving process for efficiency.
 - Simple and interactive console interface.
 
-## Class Breakdown:
+## Class:
 
 ### 1. **Student**
 The `Student` class represents a student with the following attributes:
